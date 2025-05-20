@@ -26,8 +26,8 @@ This project implements a standalone **ESP32-based Web Server** that allows user
 ## 🌐 Web Interface Overview
 
 - The ESP32 creates a Wi-Fi connection using:
-  - SSID: `AndroidHotspot5157`  
-  - Password: `00001111`
+  - SSID: `WiFi Name`  
+  - Password: `password`
 - Once connected, it starts an HTTP server on **port 80**
 - The server listens for the following routes:
   - `/26/on` or `/26/off`: Controls GPIO 26
@@ -76,6 +76,6 @@ Example Behavior:
 
 ---
 
-## 🔗 References
-
-- [ESP32 Web Server Tutorial – Random Nerd Tutorials](https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
+## 🔗 Reference
+Rui Santos, VSCode + PlatformIO IDE: ESP32 & ESP8266, Arduino (Random Nerd Tutorials)
+(https://randomnerdtutorials.com/esp32-web-server-arduino-ide/)
